@@ -83,8 +83,6 @@ print('\n두번째trace()')
 print(np.trace(z)) # [36 39 42]
 # [(0+12+24) ,(1+13+25) , (2+14+26)  ] = [36 39 42]
 
-# https://velog.io/@dev_dreamer/데이터-시각화-Plotly-사용법
-# https://moruxz.tistory.com/76
 
 
 """
