@@ -24,8 +24,10 @@ print(df)  #[9 rows x 29 columns]
 print()
 print()
 
+# 정답 df_ns = df.iloc[ [0,5] , 2:]
 df_ns = df.iloc[ [0,5] , 2:]
 print(df_ns)  #[9 rows x 29 columns]
+print()
 print()
 
 df_ns.index = ['South', 'North']  
@@ -34,18 +36,18 @@ tdf_ns = df_ns.T
 print(tdf_ns) 
 print()
 
-tdf_ns.plot()
-plt.show()
+# tdf_ns.plot()
+# plt.show()
 
-tdf_ns.plot(kind='bar')
-plt.show()
+# tdf_ns.plot(kind='bar')
+# plt.show()
 
 
-tdf_ns.plot(kind='area')
-plt.show()
+# tdf_ns.plot(kind='area')
+# plt.show()
 
-tdf_ns.plot(kind='barh')
-plt.show()
+# tdf_ns.plot(kind='barh')
+# plt.show()
 
 '''
 아래처럼 에러 메세지 나오면 pip install 명령어로 설치 먼저 하세요 
